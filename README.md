@@ -63,7 +63,8 @@ Before running the application, ensure you have the following installed:
     This command will build the Docker images and start the containers as defined in the `docker-compose.yml` file.
 
 3. **Access the application**:
-    - The application will be available at `http://localhost:5000`.
+
+    The application will be available at `http://localhost:5000`.
 
 ## Stopping the Application
 
