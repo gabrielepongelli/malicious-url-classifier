@@ -60,7 +60,7 @@
                 btn.setAttribute('data-bs-dismiss', 'alert');
 
                 let messageTag = document.createElement('div');
-                messageTag.textContent = msg;
+                messageTag.innerHTML = msg;
 
                 notifyTag.appendChild(messageTag);
                 notifyTag.appendChild(btn);
@@ -104,7 +104,7 @@
                     if (data.output == 0) {
                         displayResult('The URL provided is safe, go on and visit it!', 'success');
                     } else {
-                        displayResult('WARNING! The URL provided is suspicious.', 'danger');
+                        displayResult('<strong>WARNING!</strong> The URL provided is suspicious.', 'danger');
                     }
                 }).catch(error => {
                     console.error('There was a problem with the fetch operation:', error);
