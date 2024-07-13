@@ -8,7 +8,7 @@ This is the project for the Artificial Intelligence for Cybersecurity course of 
 - [Prerequisites](#prerequisites)
 - [Running the Application](#running-the-application)
 - [Stopping the Application](#stopping-the-application)
-- [Licence](#licence)
+- [License](#license)
 
 ## Project Structure
 
@@ -76,6 +76,6 @@ docker compose down
 
 This command stops and removes all the containers defined in the `docker-compose.yml` file.
 
-## Licence
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
